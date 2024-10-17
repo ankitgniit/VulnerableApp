@@ -38,7 +38,7 @@ repositories {
     mavenLocal()
 }
 
-sonar {
+sonarqube {
   properties {
     property "sonar.projectKey", "test-1234567_node"
     property "sonar.organization", "test-1234567"
